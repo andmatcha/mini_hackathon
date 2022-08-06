@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* calculator */
+.calculator-btn {
+  @apply w-10 h-10 leading-10 rounded-full m-auto font-bold text-xl;
+}

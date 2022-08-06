@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/output.css" />
+    <link rel="stylesheet" href="./calculator.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <header class="bg-blue-100 w-screen h-16">
+      <h1 class="text-2xl font-bold leading-[64px] ml-8">CALCULATOR</h1>
+    </header>
+    <main class="w-screen h-[calc(100vh-64px)]">
+      <section
+        class="table p-8 bg-blue-200 mx-auto relative top-1/2 -translate-y-1/2 rounded-3xl"
+      >
+        <section class="bg-blue-500 w-72 h-16 rounded-t-3xl mx-auto">
+          <p class="table ml-auto px-5 leading-[64px] font-bold text-2xl">
+            999999
+          </p>
+        </section>
+        <section class="bg-blue-500 w-72 h-72 mt-5 rounded-b-3xl flex py-5">
+          <div class="w-3/4">
+            <div class="flex h-1/5">
+              <button class="calculator-btn bg-orange-400">C</button>
+              <button class="calculator-btn bg-orange-400">AC</button>
+              <button class="calculator-btn bg-orange-400">√</button>
+            </div>
+            <div class="grid grid-cols-3 h-4/5">
+              <button class="calculator-btn bg-white">7</button>
+              <button class="calculator-btn bg-white">8</button>
+              <button class="calculator-btn bg-white">9</button>
+              <button class="calculator-btn bg-white">4</button>
+              <button class="calculator-btn bg-white">5</button>
+              <button class="calculator-btn bg-white">6</button>
+              <button class="calculator-btn bg-white">1</button>
+              <button class="calculator-btn bg-white">2</button>
+              <button class="calculator-btn bg-white">3</button>
+              <button class="calculator-btn bg-white">0</button>
+              <button class="calculator-btn bg-white">00</button>
+              <button class="calculator-btn bg-white">.</button>
+            </div>
+          </div>
+          <div class="w-1/4 grid">
+            <button class="calculator-btn bg-black text-white">÷</button>
+            <button class="calculator-btn bg-black text-white">×</button>
+            <button class="calculator-btn bg-black text-white">−</button>
+            <button class="calculator-btn bg-black text-white">＋</button>
+            <button class="calculator-btn bg-black text-white">＝</button>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="./calculator.js"></script>
+  </body>
+</html>
