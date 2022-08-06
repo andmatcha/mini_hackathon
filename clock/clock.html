@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/output.css" />
+    <link rel="stylesheet" href="./clock.css" />
+    <title>clock</title>
+  </head>
+  <body>
+    <header class="bg-blue-100 w-screen h-16">
+      <h1 class="text-2xl font-bold leading-[64px] ml-8">CLOCK</h1>
+    </header>
+    <main class="w-screen h-[calc(100vh-64px)]">
+      <section
+        class="w-96 h-96 rounded-full bg-blue-200 mx-auto relative top-1/2 -translate-y-1/2"
+      >
+        <!-- ./clock.css -->
+        <div class="minute-hand"></div>
+        <div class="hour-hand"></div>
+        <div
+          class="w-5 h-5 rounded-full bg-blue-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        ></div>
+      </section>
+    </main>
+  </body>
+</html>
